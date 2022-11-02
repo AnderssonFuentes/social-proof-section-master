@@ -222,10 +222,6 @@ header p {
 /*---------- (>1160px) ---------- */
 @media only screen and (min-width: 1160px) {
   body {
-    background: url(images/bg-pattern-top-desktop.svg),
-      url(images/bg-pattern-bottom-desktop.svg);
-    background-position: top left, bottom right;
-    background-repeat: no-repeat;
     background-size: 580px;
   }
   .container {
