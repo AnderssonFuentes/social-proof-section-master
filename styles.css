@@ -133,8 +133,17 @@ header p {
   text-decoration: none;
 }
 
+/*---------- MEDIA-QUERIES ---------- */
 /*---------- (>375px) ---------- */
 @media only screen and (min-width: 376px) {
+  body {
+    background: url(images/bg-pattern-top-desktop.svg),
+      url(images/bg-pattern-bottom-desktop.svg);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    background-size: 500px;
+  }
+
   .starscontainer {
     padding: 025px;
   }
@@ -157,11 +166,11 @@ header p {
 /*---------- (>768px) ---------- */
 @media only screen and (min-width: 768px) {
   body {
-    background: url(/images/bg-pattern-top-desktop.svg),
-      url(/images/bg-pattern-bottom-desktop.svg);
+    background: url(images/bg-pattern-top-desktop.svg),
+      url(images/bg-pattern-bottom-desktop.svg);
     background-position: top left, bottom right;
     background-repeat: no-repeat;
-    background-size: 400px;
+    background-size: 300px;
   }
 
   .stars {
